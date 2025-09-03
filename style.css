@@ -240,5 +240,6 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
 @media(max-width:600px){
   .third{
     grid-template-columns: repeat(1,1fr);
+    padding: 0 0;
   }
 }
