@@ -277,7 +277,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
 }
 
 .projelerim{
-  margin: 0 0 10px 0;
+  margin: 0 0 90px 0;
   width: 300px;
   height: 400px;
   border-radius: 20px;
@@ -288,4 +288,10 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
   padding-top: 20px;
   background-color: rgb(236, 231, 231);
  }
+
+ .aciklama{
+  background-color: #fff;
+  height: 250px;
+  padding: 0 0 0 20px;
+}
 }
