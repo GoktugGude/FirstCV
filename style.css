@@ -240,7 +240,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
 @media(max-width:600px){
   .third{
     grid-template-columns: repeat(1,1fr);
-    padding: 0 0;
+    padding: 0;
   }
 
   .navigasyon{
@@ -251,7 +251,22 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
   justify-content: space-around;
   align-items: center;
   
-  background-color: #424242;
+  
+}
+
+.logo{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: darkorange;
+  justify-self: center;
+  display: flex;
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 130px;
+  height: 130px;
+  align-items: center;
+  color: whitesmoke;
+  padding-top: 7px;
+  justify-content: center;
   
 }
 }
