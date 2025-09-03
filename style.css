@@ -236,3 +236,9 @@ button:hover{
 transform:scale(1.05); /* Hover durumunda kartı büyütür */
 transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda geçiş efekti ekler */
 }
+
+@media(max-width:600px){
+  .third{
+    grid-template-columns: repeat(1,1fr);
+  }
+}
