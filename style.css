@@ -230,3 +230,9 @@ html {
 transform:scale(1.05); /* Hover durumunda kartı büyütür */
 transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda geçiş efekti ekler */
 }
+
+button:hover{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Hover durumunda gölgeyi artırır */
+transform:scale(1.05); /* Hover durumunda kartı büyütür */
+transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda geçiş efekti ekler */
+}
