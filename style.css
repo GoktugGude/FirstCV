@@ -250,6 +250,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0 10px;
   
   
 }
@@ -352,4 +353,5 @@ footer{
 .linkler{
   padding-top: 30px;
 }
+
 }
