@@ -258,7 +258,6 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
   font-family: Arial, Helvetica, sans-serif;
   background-color: darkorange;
   justify-self: center;
-  display: flex;
   border: 5px solid white;
   border-radius: 50%;
   width: 90px;
