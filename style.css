@@ -9,14 +9,14 @@
   width: 100%;
   height: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   
   background-color: #424242;
   
 }
 .navigasyon a{
-  padding: 12px;
+  padding: 30px;
   color: #FFFFF0;
   font-weight: bold;
 }
@@ -246,7 +246,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
   .navigasyon{
   position: fixed;
   width: 100%;
-  height: 50px;
+  height: 70px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -352,6 +352,12 @@ footer{
 
 .linkler{
   padding-top: 30px;
+}
+
+.navigasyon a{
+  padding: 13px;
+  color: #FFFFF0;
+  font-weight: bold;
 }
 
 }
