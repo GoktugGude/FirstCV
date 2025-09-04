@@ -264,6 +264,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda geçi�
   height: 90px;
   color: whitesmoke;
   padding-top: 7px;
+  
 }
 
 .iletisim p, .linkler{
@@ -322,7 +323,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda geçi�
     display: flex;
     flex-direction: column;
     align-items: center; /* ortalar */
-    padding-top: 50px;
+    padding-top: 150px;
     margin: 0; /* soldan/sağdan boşlukları kaldır */
   }
 
@@ -342,5 +343,13 @@ footer{
   font-weight: bold;
   font-size: 10px;
   
+}
+.iletisim h2{
+  padding-top: 24px;
+  padding-bottom: 18px;
+}
+
+.linkler{
+  padding-top: 30px;
 }
 }
