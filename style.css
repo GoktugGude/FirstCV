@@ -262,10 +262,8 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda geçi�
   border-radius: 50%;
   width: 90px;
   height: 90px;
-  align-items: center;
   color: whitesmoke;
   padding-top: 7px;
-  justify-content: center;
 }
 
 .iletisim p, .linkler{
@@ -302,6 +300,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda geçi�
 }
 
 .hakkimda p{
+  margin: 0;
   padding: 2px;
   font-size: 12px;
   line-height: 14px;
@@ -317,5 +316,31 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda geçi�
   text-align: center;
   padding: 5px;
   font-size: 16px;
+}
+
+ .anasayfa {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ortalar */
+    padding-top: 50px;
+    margin: 0; /* soldan/sağdan boşlukları kaldır */
+  }
+
+  .second{
+  background-color: white;
+}
+
+footer{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 90px;
+  background-color: #424242;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 10px;
+  
 }
 }
