@@ -261,19 +261,17 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
   display: flex;
   border: 5px solid white;
   border-radius: 50%;
-  width: 130px;
-  height: 130px;
+  width: 90px;
+  height: 90px;
   align-items: center;
   color: whitesmoke;
   padding-top: 7px;
   justify-content: center;
-  
 }
 
 .iletisim p, .linkler{
   margin-left: 10px;
   line-height: 30px
-
 }
 
 .projelerim{
@@ -293,5 +291,32 @@ transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hover durumunda ge√ßi≈
   background-color: #fff;
   height: 250px;
   padding: 0 0 0 20px;
+}
+.anasayfa h2{
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 1.5px;
+  font-size: 24px;
+  margin: 30px;
+  padding: 10px;
+  color: rgb(228, 157, 99);
+  text-align: center;
+}
+
+.hakkimda p{
+  padding: 2px;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.anasayfa h3{
+  font-size: 18px;
+  text-align: center;
+}
+
+.anasayfa p{
+  margin-top: 30px;
+  text-align: center;
+  padding: 5px;
+  font-size: 16px;
 }
 }
